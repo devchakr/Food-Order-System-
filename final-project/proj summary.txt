@@ -1,0 +1,63 @@
+The Meal Order System In Python is a simple project developed using Python. The project contains only the admin side. The admin side manages all the orders, 
+payment process, bill report, and so on.
+
+This project demonstrates a digital way to order different services be it food,drinks and few other services.
+Starting off user will be prompted to select any desired operation from the following options:
+
+a)ORDER(O)
+b)REPORT(R)
+c)PAYMENT(P)
+d)EXIT(E)
+
+To select any option user need to provide the first letter of the option as an input. For example -- To select ORDER input would be o(CASE INSENSTIVE)
+
+---ORDER option will be provide a interface of different services to select from. When 'O' is passed as an input , user will see the following options
+
+	(F) FOODS AND DRINKS
+	(O) OTHER SERVICES
+	(M) MAIN MENU
+	(E) EXIT
+	
+	To order food and drinks user will need to put the first letter of the word as input, following which the interface will display different food items and drinks.
+	User can select any drink or food , once done user need to select the number of items of the selected item the user wants.
+	Following this three options would be available
+	(M) MAIN MENU                   (P) PAYMENT                   (E) EXIT
+	
+	User can go back to the main menu with the first option , use the payment option to pay for the items or user can just exit.
+	Once payment is made "payment successfull" message would be shown to confirm payment.
+	Following which a report will be generated and save to the report file ,which would contain all past orders history.
+
+---REPORT option will show the report of all the past orders made by user if any
+---PAYMENT option will be used to make payment for any orders made by the user
+---EXIT will be used to leave the interface.
+
+
+Files Used:
+----------
+The code execution requires four files : list_drinks.fsd,list_foods.fsd,list_services.fsd,report.fsd
+	list_drinks.fsd---> it contains all the drinks available for order and is used to display on the interface
+	list_foods.fsd---> it contains all the food items available for order and is used to display on the interface	
+	list_services.fsd---> it contains all the other services apart from food and drinks available for order and is used to display on the interface	
+	report.fsd---> it will be contain all the historical past orders data.
+
+How To Run The Project?
+-----------------------
+Step1: Extract/Unzip the file
+Step2: Go inside the project folder, open cmd then type main.py and enter to start the system.
+OR
+Step2: Simply, double click the main.py file and you are ready to go.
+
+
+==================================================================================================
+This project satisfies all the given criteria and guidelines provided in final project guidelines
+==================================================================================================
+
+
+
+
+
+
+
+
+
+
